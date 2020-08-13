@@ -1,0 +1,31 @@
+{
+    "fields": [
+      {
+        "type": "collection",
+        "multifield": true,
+        "fieldLabel": [
+          "icon",
+          "value"
+        ],
+        "fields": [
+          {
+            "type": "input",
+            "inputType": "text",
+            "placeholder": "Icon",
+            "label": "Icon Name",
+            "model": "icon"
+          },
+          {
+            "type": "input",
+            "inputType": "url",
+            "placeholder": "URL",
+            "label": "URL",
+            "model": "url"
+          }
+        ],
+        "placeholder": "icons",
+        "label": "Icons",
+        "model": "icons"
+      }
+    ]
+  }

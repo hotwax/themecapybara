@@ -1,0 +1,60 @@
+{
+  "fields": [
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "title",
+      "label": "Title",
+      "model": "title"
+    },
+    {
+      "type": "collection",
+      "multifield": true,
+      "fieldLabel": [
+        "title",
+        "value"
+      ],
+      "fields": [
+        {
+          "type": "pathbrowser",
+          "browserRoot": "/content/assets",
+          "placeholder": "image",
+          "label": "Card Image",
+          "model": "image"
+        },
+        {
+          "type": "input",
+          "inputType": "text",
+          "placeholder": "imagealttext",
+          "label": "Image Alt Text",
+          "model": "imagealttext"
+        },
+        {
+          "type": "inputlink",
+          "browserRoot": "/content/sites",
+          "internalLinkPlaceholder": "link",
+          "urlPlaceholder": "https://www.example.com",
+          "label": "Link",
+          "model": "link"
+        },
+        {
+          "type": "input",
+          "inputType": "hidden",
+          "placeholder": "",
+          "label": "",
+          "model": "linkType"
+        },
+        {
+          "type": "input",
+          "inputType": "hidden",
+          "placeholder": "",
+          "label": "",
+          "model": "imageLinkType"
+        }
+      ],
+      "placeholder": "cards",
+      "label": "Cards",
+      "model": "cards"
+    }
+  ]
+}

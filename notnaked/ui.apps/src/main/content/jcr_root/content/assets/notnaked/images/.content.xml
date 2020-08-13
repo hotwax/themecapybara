@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:lastModified="{Date}2020-08-11T08:04:35.011+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="images">
+    <Carousel1.png/>
+    <Carousel2.png/>
+    <cocktail_and_party.png/>
+    <cocktail_party.png/>
+    <eco_sandals0.png/>
+    <eco_sandals1.png/>
+    <Eco_sandals.png/>
+    <eco_sandals_horizontal.png/>
+    <hero_image.jpg/>
+    <imagegrid1.jpg/>
+    <imagegrid2.jpg/>
+    <imagegrid3.jpg/>
+    <imagegrid4.jpg/>
+    <imagegrid5.jpg/>
+    <imagegrid6.jpg/>
+    <linen_dresses.png/>
+    <luma.jpg/>
+    <mobile.png/>
+    <office_life.png/>
+    <office_life1.png/>
+    <office_life2.png/>
+    <shine.jpg/>
+    <spring.jpg/>
+    <the_office_life.png/>
+    <newsletter.jpg/>
+</jcr:root>

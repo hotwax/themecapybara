@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Carousel">
+  <jcr:content jcr:primaryType="nt:unstructured" __variations="true">
+    <sample jcr:primaryType="nt:unstructured" title="Carousel" group="Features">
+      <jcr:content jcr:primaryType="nt:unstructured">
+        <slides jcr:primaryType="nt:unstructured">
+          <slides0 jcr:primaryType="nt:unstructured" linkType="internalLink" imageLinkType="internalLink" imagepath="/content/assets/notnaked/images/Carousel1.png" imagefit="cover" title="Colorful summer dresses are already in store" text="SUMMER COLLECTION 2020" alt=""/>
+          <slides1 jcr:primaryType="nt:unstructured" linkType="internalLink" imageLinkType="internalLink" imagepath="/content/assets/notnaked/images/Carousel2.png" imagefit="cover" title="Find clothing that expresses your individuality" text="SUMMER COLLECTION 2020" alt=""/>
+        </slides>
+      </jcr:content>
+    </sample>
+  </jcr:content>
+</jcr:root>

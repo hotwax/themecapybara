@@ -1,0 +1,67 @@
+{
+    "fields": [
+      {
+        "type": "collection",
+        "multifield": true,
+        "fieldLabel": [
+          "heading",
+          "value"
+        ],
+        "fields": [
+          {
+            "type": "pathbrowser",
+            "browserRoot": "/content/assets",
+            "placeholder": "imagepath",
+            "label": "Image Source",
+            "model": "imagepath"
+          },
+          {
+            "type": "inputlink",
+            "browserRoot": "/content/sites",
+            "internalLinkPlaceholder": "link",
+            "urlPlaceholder": "https://www.example.com",
+            "label": "Link",
+            "model": "link"
+          },
+          {
+            "type": "input",
+            "inputType": "hidden",
+            "placeholder": "",
+            "label": "",
+            "model": "linkType"
+          },
+          {
+            "type": "input",
+            "inputType": "hidden",
+            "placeholder": "",
+            "label": "",
+            "model": "imageLinkType"
+          },
+          {
+            "type": "input",
+            "inputType": "text",
+            "placeholder": "title",
+            "label": "Image Title",
+            "model": "title"
+          },
+          {
+            "type": "texteditor",
+            "rows": 10,
+            "placeholder": "text",
+            "label": "Image Text",
+            "model": "text"
+          },
+          {
+            "type": "input",
+            "inputType": "text",
+            "placeholder": "alt",
+            "label": "Image Alt Text",
+            "model": "alt"
+          }
+        ],
+        "placeholder": "slides",
+        "label": "Slides",
+        "model": "slides"
+      }
+    ]
+  }

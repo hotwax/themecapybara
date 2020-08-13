@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="per:Page"
+          jcr:title="notnaked"
+          jcr:description="notnaked Site Root"
+>
+    <jcr:content
+            jcr:primaryType="per:PageContent"
+            sling:resourceType="notnaked/components/page"
+            jcr:title="notnaked template"
+            brand="notnaked"
+            siteCSS="[/etc/felibs/notnaked.css,/content/sites/notnaked/css/colors.css,/content/sites/notnaked/css/custom.css,https://fonts.googleapis.com/css?family=Lato:300%2C400%2C700%2C900&amp;amp;display=swap]"
+            prefetchDNS="[https://www.youtube.com,https://s.ytimg.com,https://www.google.com,https://fonts.gstatic.com,https://www.youtube-nocookie.com]"
+    />
+</jcr:root>

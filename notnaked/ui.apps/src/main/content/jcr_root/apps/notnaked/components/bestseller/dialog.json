@@ -1,0 +1,18 @@
+{
+  "fields": [
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "Title",
+      "label": "Title",
+      "model": "title"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "URL",
+      "label": "URL",
+      "model": "url"
+    }
+  ]
+}
