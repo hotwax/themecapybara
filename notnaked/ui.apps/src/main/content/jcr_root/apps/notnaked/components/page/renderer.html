@@ -1,0 +1,16 @@
+<!-- js includes required for this renderer -->
+
+<sly data-sly-include="/apps/pagerender/vue/structure/page/renderer.html"/>
+<script src="/etc/felibs/notnaked.js"></script>
+<sly data-sly-use.helper="apps.pagerender.vue.structure.page.Helper"/>
+<script src="/etc/felibs/notnaked/dependencies/intersection-observer.js"></script>
+<script src="/etc/felibs/notnaked/dependencies/v-lazy-image.min.js"></script>
+<script src="/etc/felibs/${helper.siteName}.js"></script>
+
+<script>
+    Vue.use(window.VLazyImage.VLazyImagePlugin);
+    $peregrineApp.loadComponent('pagerender-vue-components-placeholder')
+    $peregrineApp.loadComponent('notnaked-components-block')
+    $peregrineApp.loadComponent('notnaked-components-sociallinks')
+</script>
+

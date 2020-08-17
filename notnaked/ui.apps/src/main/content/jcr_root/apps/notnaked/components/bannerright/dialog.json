@@ -1,0 +1,69 @@
+{
+  "fields": [
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "Title",
+      "label": "Title",
+      "model": "title"
+    },
+    {
+      "type": "pathbrowser",
+      "browserRoot": "/content/assets",
+      "placeholder": "Image",
+      "label": "Image",
+      "model": "image"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "Image Alternate Text",
+      "label": "Image Alt Text",
+      "model": "imagealttext"
+    },
+    {
+      "type": "inputlink",
+      "browserRoot": "/content/sites",
+      "placeholder": "link",
+      "label": "Link",
+      "model": "link",
+      "internalLinkPlaceholder": "Link",
+      "urlPlaceholder": "URL"
+    },
+    {
+      "type": "texteditor",
+      "rows": 10,
+      "placeholder": "Text",
+      "label": "Text",
+      "model": "text"
+    },
+    {
+      "type": "materialswitch",
+      "textOn": "yes",
+      "textOff": "no",
+      "valueOn": "true",
+      "valueOff": "false",
+      "placeholder": "showbutton",
+      "label": "Show Button",
+      "model": "showbutton"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "Button Text",
+      "label": "Button Text",
+      "model": "buttontext",
+      "visible": "model.showbutton == 'true'"
+    },
+    {
+      "type": "buttonlinkfield",
+      "browserRoot": "/content/sites",
+      "placeholder": "link",
+      "label": "Button Link",
+      "model": "buttonlink",
+      "visible": "model.showbutton == 'true'",
+      "internalLinkPlaceholder": "Link",
+      "urlPlaceholder": "URL"
+    }
+  ]
+}

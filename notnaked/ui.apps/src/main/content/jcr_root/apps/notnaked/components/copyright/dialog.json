@@ -1,0 +1,11 @@
+{
+    "fields": [
+      {
+        "type": "input",
+        "inputType": "text",
+        "placeholder": "Text",
+        "label": "Text",
+        "model": "text"
+      }
+    ]
+  }
