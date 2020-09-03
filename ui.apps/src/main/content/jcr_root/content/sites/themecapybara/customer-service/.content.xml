@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:lastModified="{Date}2020-08-11T08:54:53.948+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="per:Page">
+    <jcr:content
+        jcr:lastModified="{Date}2020-08-11T08:54:53.948+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="per:PageContent"
+        jcr:title="customer-service"
+        sling:resourceType="themecapybara/components/page"
+        name="customer-service"
+        template="/content/templates/themecapybara"
+        templatePath="/content/templates/themecapybara">
+        <n3372b40f-38ad-49c1-a5fd-1bf33d8bc03f
+            jcr:lastModified="{Date}2020-08-11T08:54:09.575+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/richtext"
+            text=""
+            title="Customer Service"/>
+        <nd86778c5-ed63-4e86-98fc-f93f7d51aed7
+            jcr:lastModified="{Date}2020-08-11T08:54:32.480+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/richtext"
+            text="&lt;p>This website (&quot;website&quot;) is operated by Luma Inc., which includes Luma stores, and Luma Private Sales. This privacy policy only covers information collected at this website, and does not cover any information collected offline by Luma. All Luma websites are covered by this privacy policy.&lt;/p>"
+            title=""/>
+        <n447783d7-6a17-4460-8b39-367c16671eea
+            jcr:lastModified="{Date}2020-08-11T08:54:53.948+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/richtext"
+            text="&lt;p>To help us achieve our goal of providing the highest quality products and services, we use information from our interactions with you and other customers, as well as from other parties. Because we respect your privacy, we have implemented procedures to ensure that your personal information is handled in a safe, secure, and responsible manner. We have posted this privacy policy in order to explain our information collection practices and the choices you have about the way information is collected and used.&lt;/p>&lt;p>As we continue to develop the Luma website and take advantage of advances in technology to improve the services we offer, this privacy policy likely will change. We therefore encourage you to refer to this policy on an ongoing basis so that you understand our current privacy policy.&lt;/p>"
+            title="Luma Privacy Policy"/>
+    </jcr:content>
+</jcr:root>

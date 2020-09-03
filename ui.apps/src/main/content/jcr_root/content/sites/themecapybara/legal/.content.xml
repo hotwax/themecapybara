@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:lastModified="{Date}2020-08-11T08:56:41.545+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="per:Page">
+    <jcr:content
+        jcr:lastModified="{Date}2020-08-11T08:56:41.545+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="per:PageContent"
+        jcr:title="legal"
+        sling:resourceType="themecapybara/components/page"
+        name="legal"
+        template="/content/templates/themecapybara"
+        templatePath="/content/templates/themecapybara">
+        <n24cb0522-6b6b-4c82-be50-259ad12e72e3
+            jcr:lastModified="{Date}2020-08-11T08:56:25.286+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/richtext"
+            text=""
+            title="Legal Notice"/>
+        <na244c6e5-05c2-4642-a1e3-272e7ff605ae
+            jcr:lastModified="{Date}2020-08-11T08:56:41.545+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/richtext"
+            text="&lt;p>This website (&quot;website&quot;) is operated by Luma Inc., which includes Luma stores, and Luma Private Sales. This privacy policy only covers information collected at this website, and does not cover any information collected offline by Luma. All Luma websites are covered by this privacy policy&lt;/p>"
+            title=""/>
+    </jcr:content>
+</jcr:root>
