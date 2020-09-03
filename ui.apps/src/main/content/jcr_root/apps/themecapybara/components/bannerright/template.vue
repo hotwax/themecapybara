@@ -4,7 +4,7 @@
       <div style="text-align: left; position: absolute; top: 20%; left: 50%; right:10%;  color: black;">
         <h2 class="bannerright-heading" v-html="model.title"></h2>
         <p class="bannerright-text" v-html="model.text"></p>
-        <a href="#" class="bannerright-button" v-if="model.showbutton == 'true'" v-html="model.buttontext"></a>
+        <a href="#" class="bannerright-button" v-if="model.buttontext" v-html="model.buttontext"></a>
       </div>
     </div>
   </div>

@@ -4,20 +4,20 @@
       <div style="text-align: left; position: absolute; top: 20%; left: 5%; right: 50%;  color: black; ">
         <h2 class="tgrid-top-banner-heading" v-html="model.cards[0].title"></h2>
         <p class="tgrid-top-banner-text" v-html="model.cards[0].text"></p>
-        <a href="#" class="tgrid-top-banner-button" v-if="model.showbutton == 'true' && model.cards[0].buttontext != ''" v-html="model.cards[0].buttontext"></a>
+        <a href="#" class="tgrid-top-banner-button" v-if="model.cards[0].buttontext" v-html="model.cards[0].buttontext"></a>
       </div>
     </div>
     <div class="bottom-left-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[1].image+ ')' }">
       <h3 class="tgrid-bottom-banner-heading" v-html=" model.cards[1].title"></h3>
         <p class="tgrid-bottom-banner-text" v-html=" model.cards[1].text"></p>
         <br>
-        <a class="tgrid-bottom-banner-button" href="#" v-if="model.showbutton == 'true' && model.cards[1].buttontext != ''" v-html="model.cards[1].buttontext"></a>
+        <a class="tgrid-bottom-banner-button" href="#" v-if="model.cards[1].buttontext" v-html="model.cards[1].buttontext"></a>
     </div>
     <div class="bottom-right-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[2].image+ ')' }">
       <h3 class="tgrid-bottom-banner-heading" v-html=" model.cards[2].title"></h3>
         <p class="tgrid-bottom-banner-text" v-html=" model.cards[2].text"></p>
         <br>
-        <a href="#" class="tgrid-bottom-banner-button" v-if="model.showbutton == 'true' && model.cards[2].buttontext != ''" v-html="model.cards[2].buttontext"></a>
+        <a href="#" class="tgrid-bottom-banner-button" v-if="model.cards[2].buttontext" v-html="model.cards[2].buttontext"></a>
     </div>
   </div>
 </template>

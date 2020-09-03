@@ -4,25 +4,25 @@
         <h3 class="verticalset-banner-heading" v-html=" model.cards[0].title"></h3>
         <p class="verticalset-banner-text" v-html=" model.cards[0].text"></p>
         <br>
-        <a href="#" class="verticalset-banner-button" v-if="model.showbutton == 'true' && model.cards[0].buttontext != ''" v-html="model.cards[0].buttontext"></a>
+        <a href="#" class="verticalset-banner-button" v-if="model.cards[0].buttontext" v-html="model.cards[0].buttontext"></a>
     </div>
     <div style="float: right; width: 770px; height: 1000px;">
       <div class="verticalset-right-top-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[1].image+ ')' }">
         <h3 class="verticalset-banner-heading" v-html=" model.cards[1].title"></h3>
         <p class="verticalset-banner-text" v-html=" model.cards[1].text"></p>
         <br>
-        <a href="#" class="verticalset-banner-button" v-if="model.showbutton == 'true' && model.cards[1].buttontext != ''" v-html="model.cards[1].buttontext"></a>
+        <a href="#" class="verticalset-banner-button" v-if="model.cards[1].buttontext" v-html="model.cards[1].buttontext"></a>
       </div>
       <div class="verticalset-right-top-banner" style="margin-left:14px;" v-bind:style="{ 'background-image': 'url(' +model.cards[2].image+ ')' }">
         <h3 class="verticalset-banner-heading" v-html=" model.cards[2].title"></h3>
         <p class="verticalset-banner-text" v-html=" model.cards[2].text"></p>
         <br>
-        <a href="#" class="verticalset-banner-button" v-if="model.showbutton == 'true' && model.cards[2].buttontext != ''" v-html="model.cards[2].buttontext"></a>
+        <a href="#" class="verticalset-banner-button" v-if="model.cards[2].buttontext" v-html="model.cards[2].buttontext"></a>
       </div>
       <div class="verticalset-right-bottom-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[3].image+ ')' }">
         <h3 class="verticalset-banner-heading" v-html=" model.cards[3].title"></h3>
         <p class="verticalset-banner-text" v-html=" model.cards[3].text"></p>
-        <a href="#" class="verticalset-banner-button" v-if="model.showbutton == 'true' && model.cards[3].buttontext != ''" v-html="model.cards[3].buttontext"></a>
+        <a href="#" class="verticalset-banner-button" v-if="model.cards[3].buttontext" v-html="model.cards[3].buttontext"></a>
       </div>
     </div>
   </div>

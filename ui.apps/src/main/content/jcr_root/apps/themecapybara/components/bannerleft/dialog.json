@@ -31,39 +31,19 @@
       "model": "imagealttext"
     },
     {
-      "type": "texteditor",
+      "type": "material-textarea",
       "rows": 10,
+      "max": 500,
       "placeholder": "text",
       "label": "Text",
       "model": "text"
-    },
-    {
-      "type": "materialswitch",
-      "textOn": "yes",
-      "textOff": "no",
-      "valueOn": "true",
-      "valueOff": "false",
-      "placeholder": "showbutton",
-      "label": "Show Button",
-      "model": "showbutton"
     },
     {
       "type": "input",
       "inputType": "text",
       "placeholder": "Button Text",
       "label": "Button Text",
-      "model": "buttontext",
-      "visible": "model.showbutton == 'true'"
-    },
-    {
-      "type": "buttonlinkfield",
-      "browserRoot": "/content/sites",
-      "placeholder": "link",
-      "label": "Button Link",
-      "model": "buttonlink",
-      "visible": "model.showbutton == 'true'",
-      "internalLinkPlaceholder": "Link",
-      "urlPlaceholder": "URL"
+      "model": "buttontext"
     }
   ]
 }
