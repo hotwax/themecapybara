@@ -20,16 +20,14 @@
         "fields": [
           {
             "type": "input",
-            "inputType": "text",
-            "placeholder": "Slot",
-            "label": "Slot",
+            "inputType": "hidden",
             "model": "slot"
           },
           {
             "type": "input",
             "inputType": "text",
             "placeholder": "Sub Title",
-            "label": "Card Sub Title",
+            "label": "Card SubTitle",
             "model": "subtitle"
           },
           {
