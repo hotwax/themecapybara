@@ -1,6 +1,7 @@
 <template>
   <div style="width: 1240px; height: 995px; margin: 0 auto; font-family: var(--font-sans);" v-bind:data-per-path="model.path">
     <div class="verticalset-left-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[0].image+ ')' }">
+        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[0].subtitle"></b>
         <h3 class="verticalset-banner-heading" v-html=" model.cards[0].title"></h3>
         <p class="verticalset-banner-text" v-html=" model.cards[0].text"></p>
         <br>
@@ -8,18 +9,21 @@
     </div>
     <div style="float: right; width: 770px; height: 1000px;">
       <div class="verticalset-right-top-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[1].image+ ')' }">
+        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[1].subtitle"></b>
         <h3 class="verticalset-banner-heading" v-html=" model.cards[1].title"></h3>
         <p class="verticalset-banner-text" v-html=" model.cards[1].text"></p>
         <br>
         <a href="#" class="verticalset-banner-button" v-if="model.showbutton == 'true' && model.cards[1].buttontext != ''" v-html="model.cards[1].buttontext"></a>
       </div>
       <div class="verticalset-right-top-banner" style="margin-left:14px;" v-bind:style="{ 'background-image': 'url(' +model.cards[2].image+ ')' }">
+        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[2].subtitle"></b>
         <h3 class="verticalset-banner-heading" v-html=" model.cards[2].title"></h3>
         <p class="verticalset-banner-text" v-html=" model.cards[2].text"></p>
         <br>
         <a href="#" class="verticalset-banner-button" v-if="model.showbutton == 'true' && model.cards[2].buttontext != ''" v-html="model.cards[2].buttontext"></a>
       </div>
       <div class="verticalset-right-bottom-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[3].image+ ')' }">
+        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[3].subtitle"></b>
         <h3 class="verticalset-banner-heading" v-html=" model.cards[3].title"></h3>
         <p class="verticalset-banner-text" v-html=" model.cards[3].text"></p>
         <a href="#" class="verticalset-banner-button" v-if="model.showbutton == 'true' && model.cards[3].buttontext != ''" v-html="model.cards[3].buttontext"></a>
@@ -80,7 +84,7 @@
     font-size: 48px;
     line-height: 77px;
     margin-top: 8%;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-right: 30px;
   }
   .verticalset-banner-text{
@@ -88,7 +92,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-right: 30px;
   }
   .verticalset-banner-button{
@@ -102,7 +106,7 @@
     font-size: 16px;
     margin: 4px 2px;
     font-weight: bold;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-right: 30px;
   }
 </style>
