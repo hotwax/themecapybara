@@ -4,8 +4,8 @@
       <div class="app-heading">
         <h2 style="margin-right: 60%;" v-html="model.title"></h2>
         <br>
-        <img style="position: absolute; width: 174px; height: 56.86px; " src="/content/assets/themecapybara/images/applestore.png">
-        <img style="position: absolute; width: 174px; height: 56.86px; margin-left:200px; " src="/content/assets/themecapybara/images/playstore.png">
+        <img style="position: absolute; width: 174px; height: 56.86px; " src="/content/assets/themecapybara/images/applestore.webp">
+        <img style="position: absolute; width: 174px; height: 56.86px; margin-left:200px; " src="/content/assets/themecapybara/images/playstore.webp">
       </div>
     </div>
   </div>
