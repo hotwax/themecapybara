@@ -11,9 +11,9 @@
           {
             "type": "pathbrowser",
             "browserRoot": "/content/assets",
-            "placeholder": "imagepath",
-            "label": "Image Source",
-            "model": "imagepath"
+            "placeholder": "image",
+            "label": "Image",
+            "model": "image"
           },
           {
             "type": "inputlink",
@@ -24,39 +24,35 @@
             "model": "link"
           },
           {
-            "type": "input",
-            "inputType": "hidden",
-            "placeholder": "",
-            "label": "",
-            "model": "linkType"
-          },
-          {
-            "type": "input",
-            "inputType": "hidden",
-            "placeholder": "",
-            "label": "",
-            "model": "imageLinkType"
+            "type": "material-radios",
+            "values": [
+              {
+                "name": "Left",
+                "value": "left"
+              },
+              {
+                "name": "Right",
+                "value": "right"
+              }
+            ],
+            "placeholder": "aligntext",
+            "label": "Align Text",
+            "model": "aligntext"
           },
           {
             "type": "input",
             "inputType": "text",
             "placeholder": "title",
-            "label": "Image Title",
+            "label": "Title",
             "model": "title"
           },
           {
-            "type": "texteditor",
+            "type": "material-textarea",
             "rows": 10,
-            "placeholder": "text",
-            "label": "Image Text",
-            "model": "text"
-          },
-          {
-            "type": "input",
-            "inputType": "text",
-            "placeholder": "alt",
-            "label": "Image Alt Text",
-            "model": "alt"
+            "max": 500,
+            "placeholder": "Subtitle",
+            "label": "SubTitle",
+            "model": "subtitle"
           }
         ],
         "placeholder": "slides",

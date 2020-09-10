@@ -1,16 +1,6 @@
 {
     "fields": [
       {
-        "type": "materialswitch",
-        "textOn": "yes",
-        "textOff": "no",
-        "valueOn": "true",
-        "valueOff": "false",
-        "placeholder": "showbutton",
-        "label": "Show Card Button",
-        "model": "showbutton"
-      },
-      {
         "type": "collection",
         "multifield": true,
         "fieldLabel": [
@@ -33,10 +23,11 @@
             "model": "title"
           },
           {
-            "type": "texteditor",
+            "type": "material-textarea",
             "rows": 10,
-            "placeholder": "Text",
-            "label": "Card Text",
+            "max": 500,
+            "placeholder": "text",
+            "label": "Text",
             "model": "text"
           },
           {
@@ -58,43 +49,9 @@
           {
             "type": "input",
             "inputType": "text",
-            "placeholder": "Image Alternate Text",
-            "label": "Image Alt Text",
-            "model": "imagealttext"
-          },
-          {
-            "type": "input",
-            "inputType": "text",
             "placeholder": "Button Text",
             "label": "Button Text",
             "model": "buttontext"
-          },
-          {
-            "type": "buttonlinkfield",
-            "browserRoot": "/content/sites",
-            "placeholder": "buttonlink",
-            "label": "Button Link",
-            "model": "buttonlink",
-            "internalLinkPlaceholder": "Link",
-            "urlPlaceholder": "URL"
-          },
-          {
-            "type": "input",
-            "inputType": "text",
-            "model": "linkType",
-            "visible": false
-          },
-          {
-            "type": "input",
-            "inputType": "text",
-            "model": "buttonLinkType",
-            "visible": false
-          },
-          {
-            "type": "input",
-            "inputType": "text",
-            "model": "imageLinkType",
-            "visible": false
           }
         ],
         "placeholder": "cards",

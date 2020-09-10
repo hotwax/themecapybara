@@ -1,6 +1,6 @@
 {
   "definitions": {
-    "Cards": {
+    "Imagesgrid": {
       "type": "object",
       "x-type": "component",
       "properties": {
