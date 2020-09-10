@@ -16,6 +16,13 @@
             "model": "title"
           },
           {
+            "type": "input",
+            "inputType": "text",
+            "placeholder": "SubTitle",
+            "label": "Card SubTitle",
+            "model": "subtitle"
+          },
+          {
             "type": "inputlink",
             "browserRoot": "/content/sites",
             "placeholder": "link",
@@ -32,13 +39,6 @@
             "model": "image"
           },
           {
-            "type": "input",
-            "inputType": "text",
-            "placeholder": "Image Alternate Text",
-            "label": "Image Alt Text",
-            "model": "imagealttext"
-          },
-          {
             "type": "material-textarea",
             "rows": 10,
             "max": 500,
@@ -52,18 +52,6 @@
             "placeholder": "Button Text",
             "label": "Button Text",
             "model": "buttontext"
-          },
-          {
-            "type": "input",
-            "inputType": "text",
-            "model": "linkType",
-            "visible": false
-          },
-          {
-            "type": "input",
-            "inputType": "text",
-            "model": "imageLinkType",
-            "visible": false
           }
         ],
         "placeholder": "cards",
