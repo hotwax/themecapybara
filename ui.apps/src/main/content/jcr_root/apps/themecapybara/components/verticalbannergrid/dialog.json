@@ -11,6 +11,13 @@
           {
             "type": "input",
             "inputType": "text",
+            "placeholder": "Sub Title",
+            "label": "Card SubTitle",
+            "model": "subtitle"
+          },
+          {
+            "type": "input",
+            "inputType": "text",
             "placeholder": "Title",
             "label": "Card Title",
             "model": "title"
@@ -42,28 +49,9 @@
           {
             "type": "input",
             "inputType": "text",
-            "placeholder": "Image Alternate Text",
-            "label": "Image Alt Text",
-            "model": "imagealttext"
-          },
-          {
-            "type": "input",
-            "inputType": "text",
             "placeholder": "Button Text",
             "label": "Button Text",
             "model": "buttontext"
-          },
-          {
-            "type": "input",
-            "inputType": "text",
-            "model": "linkType",
-            "visible": false
-          },
-          {
-            "type": "input",
-            "inputType": "text",
-            "model": "imageLinkType",
-            "visible": false
           }
         ],
         "placeholder": "cards",
