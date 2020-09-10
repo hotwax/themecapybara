@@ -7,7 +7,7 @@
         </div>
         <div>
           <div style="margin-top: 90px; float: right; display: inline-block;">
-            <a href="#" class="newslatter-button" v-html="model.buttontext"></a>
+            <a href="#" class="newslatter-button" v-if="model.buttontext" v-html="model.buttontext"></a>
             </div>
           </div>
        </div>
