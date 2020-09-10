@@ -74,17 +74,9 @@ public class BannerleftModel extends AbstractComponent {
   @Inject
   private String text;
 
-  /* {"type":"string","x-source":"inject","x-form-label":"Show Button","x-form-type":"materialswitch"} */
-  @Inject
-  private String showbutton;
-
   /* {"type":"string","x-source":"inject","x-form-label":"Button Text","x-form-visible":"model.showbutton == 'true'","x-form-type":"text"} */
   @Inject
   private String buttontext;
-
-  /* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-visible":"model.showbutton == 'true'","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
-  @Inject
-  private String buttonlink;
 
   /* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
   @Inject
@@ -95,10 +87,6 @@ public class BannerleftModel extends AbstractComponent {
   @Inject
   @Default(values = "internalLink")
   private String imageLinkType;
-
-  @Inject
-  @Default(values = "internalLink")
-  private String buttonLinkType;
 
   @Inject
   private String imagealttext;
@@ -127,19 +115,9 @@ public class BannerleftModel extends AbstractComponent {
       return text;
   }
 
-  /* {"type":"string","x-source":"inject","x-form-label":"Show Button","x-form-type":"materialswitch"} */
-  public String getShowbutton() {
-      return showbutton;
-  }
-
   /* {"type":"string","x-source":"inject","x-form-label":"Button Text","x-form-visible":"model.showbutton == 'true'","x-form-type":"text"} */
   public String getButtontext() {
       return buttontext;
-  }
-
-  /* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-visible":"model.showbutton == 'true'","x-form-type":"inputlink","x-form-browserRoot":"/content/sites"} */
-  public String getButtonlink() {
-      return buttonlink;
   }
 
   /* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
@@ -152,18 +130,8 @@ public class BannerleftModel extends AbstractComponent {
       return imageLinkType;
   }
 
-  public String getButtonLinkType() {
-      return buttonLinkType;
-  }
-
   public String getImagealttext() {
       return imagealttext;
   }
-
-
-//GEN]
-
-  //GEN[:CUSTOMGETTERS
-  //GEN]
 
 }

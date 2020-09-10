@@ -1,16 +1,6 @@
 {
     "fields": [
       {
-        "type": "materialswitch",
-        "textOn": "yes",
-        "textOff": "no",
-        "valueOn": "true",
-        "valueOff": "false",
-        "placeholder": "showbutton",
-        "label": "Show Card Button",
-        "model": "showbutton"
-      },
-      {
         "type": "collection",
         "multifield": true,
         "fieldLabel": [
