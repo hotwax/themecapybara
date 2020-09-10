@@ -66,6 +66,13 @@ public class NewsletterModel extends AbstractComponent {
   @Inject
   private String text;
 
+  @Inject
+  private String link;
+
+  @Inject
+  @Default(values = "internalLink")
+  private String linkType;
+
   /* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
   @Inject
   private String image;
@@ -73,14 +80,6 @@ public class NewsletterModel extends AbstractComponent {
   /* {"type":"string","x-source":"inject","x-form-label":"Button text","x-form-type":"text"} */
   @Inject
   private String buttontext;
-
-  /* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"buttonlinkfield","x-form-browserRoot":"/content/sites"} */
-  @Inject
-  private String buttonlink;
-
-  @Inject
-  @Default(values = "internalLink")
-  private String buttonLinkType;
 
   @Inject
   @Default(values = "internalLink")
@@ -113,26 +112,20 @@ public class NewsletterModel extends AbstractComponent {
       return buttontext;
   }
 
-  /* {"type":"string","x-source":"inject","x-form-label":"Button Link","x-form-internalLinkPlaceholder":"Link","x-form-urlPlaceholder":"URL","x-form-type":"buttonlinkfield","x-form-browserRoot":"/content/sites"} */
-  public String getButtonlink() {
-      return buttonlink;
-  }
-
-  public String getButtonLinkType() {
-      return buttonLinkType;
-  }
-
   public String getImageLinkType() {
-      return buttonLinkType;
+      return imageLinkType;
   }
 
   public String getImagealttext() {
       return imagealttext;
   }
 
-  //GEN]
+  public String getLink() {
+    return link;
+  }
 
-  //GEN[:CUSTOMGETTERS
-  //GEN]
+  public String getLinkType() {
+    return linkType;
+  }
 
 }
