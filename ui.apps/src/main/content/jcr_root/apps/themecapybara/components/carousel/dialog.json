@@ -10,7 +10,7 @@
         "fields": [
           {
             "type": "pathbrowser",
-            "browserRoot": "/content/assets",
+            "browserRoot": "/content/themecapybara/assets",
             "placeholder": "image",
             "label": "Image",
             "model": "image"
