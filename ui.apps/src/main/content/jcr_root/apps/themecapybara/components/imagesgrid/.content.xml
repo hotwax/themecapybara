@@ -4,12 +4,12 @@
     <sample jcr:primaryType="nt:unstructured" title="Images Grid" group="Features">
       <jcr:content jcr:primaryType="nt:unstructured" title=" Share Your Look" subtitle="">
         <imagesgrid jcr:primaryType="nt:unstructured">
-          <imagesgrid0 jcr:primaryType="nt:unstructured" image="/content/assets/themecapybara/images/imagegrid1.jpg" imageLinkType="internalLink" />
-          <imagesgrid1 jcr:primaryType="nt:unstructured" image="/content/assets/themecapybara/images/imagegrid2.jpg" imageLinkType="internalLink" />
-          <imagesgrid2 jcr:primaryType="nt:unstructured" image="/content/assets/themecapybara/images/imagegrid3.jpg" imageLinkType="internalLink" />
-          <imagesgrid3 jcr:primaryType="nt:unstructured" image="/content/assets/themecapybara/images/imagegrid4.jpg" imageLinkType="internalLink" />
-          <imagesgrid4 jcr:primaryType="nt:unstructured" image="/content/assets/themecapybara/images/imagegrid5.jpg" imageLinkType="internalLink" />
-          <imagesgrid5 jcr:primaryType="nt:unstructured" image="/content/assets/themecapybara/images/imagegrid6.jpg" imageLinkType="internalLink" />
+          <imagesgrid0 jcr:primaryType="nt:unstructured" image="/content/themecapybara/assets/images/imagegrid1.jpg" imageLinkType="internalLink" />
+          <imagesgrid1 jcr:primaryType="nt:unstructured" image="/content/themecapybara/assets/images/imagegrid2.jpg" imageLinkType="internalLink" />
+          <imagesgrid2 jcr:primaryType="nt:unstructured" image="/content/themecapybara/assets/images/imagegrid3.jpg" imageLinkType="internalLink" />
+          <imagesgrid3 jcr:primaryType="nt:unstructured" image="/content/themecapybara/assets/images/imagegrid4.jpg" imageLinkType="internalLink" />
+          <imagesgrid4 jcr:primaryType="nt:unstructured" image="/content/themecapybara/assets/images/imagegrid5.jpg" imageLinkType="internalLink" />
+          <imagesgrid5 jcr:primaryType="nt:unstructured" image="/content/themecapybara/assets/images/imagegrid6.jpg" imageLinkType="internalLink" />
         </imagesgrid>
       </jcr:content>
     </sample>

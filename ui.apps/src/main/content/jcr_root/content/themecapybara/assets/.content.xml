@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="per:Page"
+        jcr:title="themecapybara root asset"
+        jcr:description="themecapybara Assets Root">
+
+    <jcr:content
+            jcr:primaryType="per:PageContent"
+            sling:resourceType="themecapybara/components/page"
+            jcr:title="themecapybara root asset"
+            brand="themecapybara"
+            template="/content/themecapybara/templates"/>
+
+</jcr:root>

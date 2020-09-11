@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:lastModified="{Date}2020-08-11T08:48:45.034+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="per:Page">
+    <jcr:content
+        jcr:lastModified="{Date}2020-08-11T08:48:45.034+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="per:PageContent"
+        jcr:title="size-guide"
+        sling:resourceType="themecapybara/components/page"
+        name="size-guide"
+        template="/content/themecapybara/templates"
+        templatePath="/content/themecapybara/templates">
+        <n1ea954d3-c175-43c2-a661-c86028b152df
+            jcr:lastModified="{Date}2020-08-11T08:47:04.535+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/richtext"
+            text=""
+            title="Size guide"/>
+        <nd5701642-53c3-42f5-a0c8-88fa6717be80
+            jcr:lastModified="{Date}2020-08-11T08:47:50.935+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/richtext"
+            text="&lt;p>This website (&quot;website&quot;) is operated by Luma Inc., which includes Luma stores, and Luma Private Sales. This privacy policy only covers information collected at this website, and does not cover any information collected offline by Luma. All Luma websites are covered by this privacy policy.&lt;/p>"
+            title=""/>
+        <nf84ed9cb-ff86-47d7-adb0-09ba13aa115c
+            jcr:lastModified="{Date}2020-08-11T08:48:13.424+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/richtext"
+            text="&lt;p>Personal information provided on the website and online credit card transactions are transmitted through a secure server. We are committed to handling your personal information with high standards of information security. We take appropriate physical, electronic, and administrative steps to maintain the security and accuracy of personally identifiable information we collect, including limiting the number of people who have physical access to our database servers, as well as employing electronic security systems and password protections that guard against unauthorized access.&lt;/p>"
+            title="Luma Security"/>
+        <nfb07a39b-bbc9-4917-87ba-8c5b1556a587
+            jcr:lastModified="{Date}2020-08-11T08:48:45.034+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/richtext"
+            text="&lt;p>To help us achieve our goal of providing the highest quality products and services, we use information from our interactions with you and other customers, as well as from other parties. Because we respect your privacy, we have implemented procedures to ensure that your personal information is handled in a safe, secure, and responsible manner. We have posted this privacy policy in order to explain our information collection practices and the choices you have about the way information is collected and used.&lt;/p>&lt;p>As we continue to develop the Luma website and take advantage of advances in technology to improve the services we offer, this privacy policy likely will change. We therefore encourage you to refer to this policy on an ongoing basis so that you understand our current privacy policy.&lt;/p>"
+            title="Luma Privacy Policy"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:lastModified="{Date}2020-08-11T11:13:11.239+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="per:Page">
+    <jcr:content
+        jcr:lastModified="{Date}2020-08-11T11:13:11.239+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="per:PageContent"
+        jcr:title="index"
+        sling:resourceType="themecapybara/components/page"
+        name="index"
+        template="/content/themecapybara/templates"
+        templatePath="/content/themecapybara/templates">
+        <nfcb74fba-17e1-4325-b604-85e709481a7a
+            jcr:lastModified="{Date}2020-08-11T11:11:53.647+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/carousel">
+            <slides jcr:primaryType="nt:unstructured">
+                <slides0
+                    jcr:primaryType="nt:unstructured"
+                    alt=""
+                    imagefit="cover"
+                    imageLinkType="internalLink"
+                    imagepath="/content/themecapybara/assets/images/Carousel1.png"
+                    linkType="internalLink"
+                    text="SUMMER COLLECTION 2020"
+                    title="Colorful summer dresses are already in store"/>
+                <slides1
+                    jcr:primaryType="nt:unstructured"
+                    alt=""
+                    imagefit="cover"
+                    imageLinkType="internalLink"
+                    imagepath="/content/themecapybara/assets/images/Carousel2.png"
+                    linkType="internalLink"
+                    text="SUMMER COLLECTION 2020"
+                    title="Find clothing that expresses your individuality"/>
+            </slides>
+        </nfcb74fba-17e1-4325-b604-85e709481a7a>
+        <nef4240f9-fd92-4d7b-8a0a-41395f57846b
+            jcr:lastModified="{Date}2020-08-11T11:12:12.200+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/verticalset"
+            showbutton="false">
+            <cards jcr:primaryType="nt:unstructured">
+                <cards0
+                    jcr:lastModified="{Date}2020-08-11T11:12:12.197+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    buttonlink=""
+                    buttonLinkType="internalLink"
+                    buttontext="BUTTON"
+                    component="nt:unstructured"
+                    image="/content/themecapybara/assets/images/cocktail_and_party.png"
+                    imagealttext=""
+                    imageLinkType="internalLink"
+                    link=""
+                    linkType="internalLink"
+                    name="cards0"
+                    path="/jcr:content/nef4240f9-fd92-4d7b-8a0a-41395f57846b/cards/cards0"
+                    text="Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses and party dresses from all your favorite brands."
+                    title="COCKTAIL &amp; PARTY"/>
+                <cards1
+                    jcr:lastModified="{Date}2020-08-11T11:12:12.198+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    buttonlink=""
+                    buttonLinkType="internalLink"
+                    buttontext="BUTTON"
+                    component="nt:unstructured"
+                    image="/content/themecapybara/assets/images/linen_dresses.png"
+                    imagealttext=""
+                    imageLinkType="internalLink"
+                    link=""
+                    linkType="internalLink"
+                    name="cards1"
+                    path="/jcr:content/nef4240f9-fd92-4d7b-8a0a-41395f57846b/cards/cards1"
+                    text=""
+                    title="LINEN DRESSES"/>
+                <cards2
+                    jcr:lastModified="{Date}2020-08-11T11:12:12.199+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    buttonlink=""
+                    buttonLinkType="internalLink"
+                    buttontext="BUTTON"
+                    component="nt:unstructured"
+                    image="/content/themecapybara/assets/images/office_life2.png"
+                    imagealttext=""
+                    imageLinkType="internalLink"
+                    link=""
+                    linkType="internalLink"
+                    name="cards2"
+                    path="/jcr:content/nef4240f9-fd92-4d7b-8a0a-41395f57846b/cards/cards2"
+                    text=""
+                    title="YOUR OFFICE"/>
+                <cards3
+                    jcr:lastModified="{Date}2020-08-11T11:12:12.199+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    buttonlink=""
+                    buttonLinkType="internalLink"
+                    buttontext="BUTTON"
+                    component="nt:unstructured"
+                    image="/content/themecapybara/assets/images/Eco_sandals.png"
+                    imagealttext=""
+                    imageLinkType="internalLink"
+                    link=""
+                    linkType="internalLink"
+                    name="cards3"
+                    path="/jcr:content/nef4240f9-fd92-4d7b-8a0a-41395f57846b/cards/cards3"
+                    text=""
+                    title="ECO SANDALS"/>
+            </cards>
+        </nef4240f9-fd92-4d7b-8a0a-41395f57846b>
+        <nd6479813-2b0c-4a08-bfec-faae6e979f5e
+            jcr:lastModified="{Date}2020-08-11T11:12:15.629+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/newsletter"
+            buttonlink=""
+            buttonLinkType="internalLink"
+            buttontext="Subscribe"
+            image="/content/themecapybara/assets/images/newsletter.jpg"
+            imagealttext=""
+            imageLinkType="internalLink"
+            text="Be aware of upcoming sales and events. Receive gifts and special offers!"
+            title="Subscribe to Newsletters"/>
+        <n3013a7da-fa65-43ed-ac3e-550f6a2f9d04
+            jcr:lastModified="{Date}2020-08-11T11:13:11.238+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/bestseller"
+            title="Best Seller"
+            url="https://dev-dc.hotwax.io/rest/s1/api/catalog/vue_storefront_catalog/product/_search?_source_exclude=%2A.msrp_display_actual_price_type%2Crequired_options%2Cupdated_at%2Ccreated_at%2Cattribute_set_id%2Coptions_container%2Cmsrp_display_actual_price_type%2Chas_options%2Cstock.manage_stock%2Cstock.use_config_min_qty%2Cstock.use_config_notify_stock_qty%2Cstock.stock_id%2Cstock.use_config_backorders%2Cstock.use_config_enable_qty_inc%2Cstock.enable_qty_increments%2Cstock.use_config_manage_stock%2Cstock.use_config_min_sale_qty%2Cstock.notify_stock_qty%2Cstock.use_config_max_sale_qty%2Cstock.use_config_max_sale_qty%2Cstock.qty_increments%2Csmall_image%2Csgn%2C%2A.sgn&amp;from=0&amp;request=%7B%22query%22%3A%7B%22bool%22%3A%7B%22filter%22%3A%7B%22bool%22%3A%7B%22must%22%3A%5B%7B%22terms%22%3A%7B%22visibility%22%3A%5B2%2C3%2C4%5D%7D%7D%2C%7B%22terms%22%3A%7B%22status%22%3A%5B0%2C1%5D%7D%7D%2C%7B%22terms%22%3A%7B%22category_ids%22%3A%5B%2210012%22%5D%7D%7D%5D%7D%7D%7D%7D%2C%22aggs%22%3A%7B%22agg_terms_color%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22color%22%2C%22size%22%3A10%7D%7D%2C%22agg_terms_color_options%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22color_options%22%2C%22size%22%3A10%7D%7D%2C%22agg_terms_size%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22size%22%2C%22size%22%3A10%7D%7D%2C%22agg_terms_size_options%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22size_options%22%2C%22size%22%3A10%7D%7D%2C%22agg_terms_price%22%3A%7B%22terms%22%3A%7B%22field%22%3A%22price%22%7D%7D%2C%22agg_range_price%22%3A%7B%22range%22%3A%7B%22field%22%3A%22price%22%2C%22ranges%22%3A%5B%7B%22from%22%3A0%2C%22to%22%3A50%7D%2C%7B%22from%22%3A50%2C%22to%22%3A100%7D%2C%7B%22from%22%3A100%2C%22to%22%3A150%7D%2C%7B%22from%22%3A150%7D%5D%7D%7D%7D%7D&amp;size=50&amp;sort=updated_at%3Adesc"/>
+        <n42252ac9-4850-4dcc-a1b6-67a347b8ea32
+            jcr:lastModified="{Date}2020-08-11T10:59:03.920+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="themecapybara/components/cards"
+            title=" Share Your Look">
+            <cards jcr:primaryType="nt:unstructured">
+                <cards0
+                    jcr:primaryType="nt:unstructured"
+                    image="/content/themecapybara/assets/images/imagegrid1.jpg"
+                    imageLinkType="internalLink"
+                    linkType="internalLink"/>
+                <cards1
+                    jcr:primaryType="nt:unstructured"
+                    image="/content/themecapybara/assets/images/imagegrid2.jpg"
+                    imageLinkType="internalLink"
+                    linkType="internalLink"/>
+                <cards2
+                    jcr:primaryType="nt:unstructured"
+                    image="/content/themecapybara/assets/images/imagegrid3.jpg"
+                    imageLinkType="internalLink"
+                    linkType="internalLink"/>
+                <cards3
+                    jcr:primaryType="nt:unstructured"
+                    image="/content/themecapybara/assets/images/imagegrid4.jpg"
+                    imageLinkType="internalLink"
+                    linkType="internalLink"/>
+                <cards4
+                    jcr:primaryType="nt:unstructured"
+                    image="/content/themecapybara/assets/images/imagegrid5.jpg"
+                    imageLinkType="internalLink"
+                    linkType="internalLink"/>
+                <cards5
+                    jcr:primaryType="nt:unstructured"
+                    image="/content/themecapybara/assets/images/imagegrid6.jpg"
+                    imageLinkType="internalLink"
+                    linkType="internalLink"/>
+            </cards>
+        </n42252ac9-4850-4dcc-a1b6-67a347b8ea32>
+    </jcr:content>
+    <n24e74b8b-4e9e-46eb-a077-8b3ff718ccba
+        jcr:lastModified="{Date}2020-08-11T10:59:01.442+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="themecapybara/components/cards:sample"/>
+    <na7c7e4f7-0bd3-4640-8af2-10522c6ae8ee
+        jcr:lastModified="{Date}2020-08-11T10:55:19.450+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="themecapybara/components/carousel:sample"/>
+</jcr:root>
