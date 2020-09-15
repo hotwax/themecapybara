@@ -8,7 +8,6 @@
     v-bind:perPage="1" v-else>
       <slide v-for="(item,i) in model.slides" :key="i">
         <div class="relative overflow-hidden" v-bind:style="`height: 70vh;`">
-          <a class="absolute inset-0 z-10" v-if="item.slidelink" v-bind:href="item.slidelink"></a>
           <v-lazy-image class="w-full h-full object-center object-cover" v-if="item.image"
           v-bind:src="item.image" v-bind:alt="item.alt"></v-lazy-image>
           <h2 class="absolute top-0 p-4 text-black text-xl w-full"
