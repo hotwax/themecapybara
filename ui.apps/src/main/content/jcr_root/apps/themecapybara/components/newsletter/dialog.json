@@ -17,7 +17,7 @@
       },
       {
         "type": "inputlink",
-        "browserRoot": "/content/sites",
+        "browserRoot": "/content/themecapybara/pages",
         "placeholder": "link",
         "label": "Link",
         "model": "link",
@@ -26,7 +26,7 @@
       },
       {
         "type": "pathbrowser",
-        "browserRoot": "/content/assets",
+        "browserRoot": "/content/themecapybara/assets",
         "placeholder": "Image",
         "label": "Image",
         "model": "image"
