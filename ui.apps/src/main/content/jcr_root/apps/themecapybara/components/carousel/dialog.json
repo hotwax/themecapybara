@@ -51,7 +51,7 @@
             "rows": 10,
             "max": 500,
             "placeholder": "Subtitle",
-            "label": "SubTitle",
+            "label": "Subtitle",
             "model": "subtitle"
           }
         ],

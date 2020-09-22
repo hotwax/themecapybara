@@ -10,8 +10,8 @@
     {
       "type": "input",
       "inputType": "text",
-      "placeholder": "SubTitle",
-      "label": "SubTitle",
+      "placeholder": "Subtitle",
+      "label": "Subtitle",
       "model": "subtitle"
     },
     {
