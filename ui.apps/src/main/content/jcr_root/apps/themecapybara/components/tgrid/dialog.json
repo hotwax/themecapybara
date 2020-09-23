@@ -18,8 +18,8 @@
           {
             "type": "input",
             "inputType": "text",
-            "placeholder": "SubTitle",
-            "label": "Card SubTitle",
+            "placeholder": "Subtitle",
+            "label": "Card Subtitle",
             "model": "subtitle"
           },
           {
