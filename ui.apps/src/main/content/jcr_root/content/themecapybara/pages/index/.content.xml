@@ -131,7 +131,7 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="themecapybara/components/imagesgrid"
             subtitle=""
-            title=" Share Your Look">
+            title="Share Your Look">
             <imagesgrid jcr:primaryType="nt:unstructured">
                 <imagesgrid0
                     jcr:primaryType="nt:unstructured"
