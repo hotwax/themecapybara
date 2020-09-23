@@ -131,7 +131,7 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="themecapybara/components/imagesgrid"
             subtitle=""
-            title=" Share Your Look">
+            title="Share Your Look">
             <imagesgrid jcr:primaryType="nt:unstructured">
                 <imagesgrid0
                     jcr:primaryType="nt:unstructured"
@@ -159,45 +159,6 @@
                     imageLinkType="internalLink"/>
             </imagesgrid>
         </n2aedca1f-2259-4c60-abeb-1c02456a3d9c>
-        <n42252ac9-4850-4dcc-a1b6-67a347b8ea32
-            jcr:lastModified="{Date}2020-08-11T10:59:03.920+05:30"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="themecapybara/components/cards"
-            title=" Share Your Look">
-            <cards jcr:primaryType="nt:unstructured">
-                <cards0
-                    jcr:primaryType="nt:unstructured"
-                    image="/content/themecapybara/assets/images/imagegrid1.jpg"
-                    imageLinkType="internalLink"
-                    linkType="internalLink"/>
-                <cards1
-                    jcr:primaryType="nt:unstructured"
-                    image="/content/themecapybara/assets/images/imagegrid2.jpg"
-                    imageLinkType="internalLink"
-                    linkType="internalLink"/>
-                <cards2
-                    jcr:primaryType="nt:unstructured"
-                    image="/content/themecapybara/assets/images/imagegrid3.jpg"
-                    imageLinkType="internalLink"
-                    linkType="internalLink"/>
-                <cards3
-                    jcr:primaryType="nt:unstructured"
-                    image="/content/themecapybara/assets/images/imagegrid4.jpg"
-                    imageLinkType="internalLink"
-                    linkType="internalLink"/>
-                <cards4
-                    jcr:primaryType="nt:unstructured"
-                    image="/content/themecapybara/assets/images/imagegrid5.jpg"
-                    imageLinkType="internalLink"
-                    linkType="internalLink"/>
-                <cards5
-                    jcr:primaryType="nt:unstructured"
-                    image="/content/themecapybara/assets/images/imagegrid6.jpg"
-                    imageLinkType="internalLink"
-                    linkType="internalLink"/>
-            </cards>
-        </n42252ac9-4850-4dcc-a1b6-67a347b8ea32>
     </jcr:content>
     <n24e74b8b-4e9e-46eb-a077-8b3ff718ccba
         jcr:lastModified="{Date}2020-08-11T10:59:01.442+05:30"
