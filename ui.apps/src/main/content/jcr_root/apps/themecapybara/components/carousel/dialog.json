@@ -9,21 +9,6 @@
         ],
         "fields": [
           {
-            "type": "pathbrowser",
-            "browserRoot": "/content/themecapybara/assets",
-            "placeholder": "image",
-            "label": "Image",
-            "model": "image"
-          },
-          {
-            "type": "inputlink",
-            "browserRoot": "/content/themecapybara/pages",
-            "internalLinkPlaceholder": "link",
-            "urlPlaceholder": "https://www.example.com",
-            "label": "Link",
-            "model": "link"
-          },
-          {
             "type": "material-radios",
             "values": [
               {
@@ -53,6 +38,21 @@
             "placeholder": "Subtitle",
             "label": "Subtitle",
             "model": "subtitle"
+          },
+          {
+            "type": "pathbrowser",
+            "browserRoot": "/content/themecapybara/assets",
+            "placeholder": "image",
+            "label": "Image",
+            "model": "image"
+          },
+          {
+            "type": "inputlink",
+            "browserRoot": "/content/themecapybara/pages",
+            "internalLinkPlaceholder": "link",
+            "urlPlaceholder": "https://www.example.com",
+            "label": "Link",
+            "model": "link"
           }
         ],
         "placeholder": "slides",

@@ -84,10 +84,6 @@ public class AppstoreModel extends AbstractComponent {
   @Inject
   private String appleStoreImage;
 
-  @Inject
-  private String imagealttext;
-
-
 //GEN]
 
   //GEN[:GETTERS
@@ -121,10 +117,6 @@ public class AppstoreModel extends AbstractComponent {
 
   public String getAppleStoreImage() {
       return appleStoreImage;
-  }
-
-  public String getImagealttext() {
-      return imagealttext;
   }
 
   //GEN]

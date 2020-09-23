@@ -31,6 +31,13 @@
             "model": "text"
           },
           {
+            "type": "pathbrowser",
+            "browserRoot": "/content/themecapybara/assets",
+            "placeholder": "Image",
+            "label": "Card Image",
+            "model": "image"
+          },
+          {
             "type": "inputlink",
             "browserRoot": "/content/themecapybara/pages",
             "placeholder": "link",
@@ -38,13 +45,6 @@
             "model": "link",
             "internalLinkPlaceholder": "Link",
             "urlPlaceholder": "URL"
-          },
-          {
-            "type": "pathbrowser",
-            "browserRoot": "/content/themecapybara/assets",
-            "placeholder": "Image",
-            "label": "Card Image",
-            "model": "image"
           },
           {
             "type": "input",
