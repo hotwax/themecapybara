@@ -1,5 +1,5 @@
 <template>
-  <div style="width: 90%; height: 715px; margin: 0 auto; font-family: var(--font-sans);" v-bind:data-per-path="model.path">
+  <div style="width: 1240px; height: 715px; margin: 0 auto; font-family: var(--font-sans);" v-bind:data-per-path="model.path">
     <div class="horizontal-banner1" v-bind:style="{ 'background-image': 'url(' +model.cards[0].image+ ')' }">
       <b class="verticalbannergrid-text" style="margin-top: 10px;" v-html=" model.cards[0].subtitle"></b>
       <h3 class="verticalbannergrid-heading" v-html=" model.cards[0].title"></h3>
