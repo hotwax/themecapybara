@@ -12,5 +12,5 @@
             jcr:title="themecapybara root asset"
             brand="themecapybara"
             template="/content/themecapybara/templates"/>
-
+    <languages/>
 </jcr:root>
