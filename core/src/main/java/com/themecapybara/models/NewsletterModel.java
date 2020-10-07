@@ -85,9 +85,6 @@ public class NewsletterModel extends AbstractComponent {
   @Default(values = "internalLink")
   private String imageLinkType;
 
-  @Inject
-  private String imagealttext;
-
 
 //GEN]
 
@@ -114,10 +111,6 @@ public class NewsletterModel extends AbstractComponent {
 
   public String getImageLinkType() {
       return imageLinkType;
-  }
-
-  public String getImagealttext() {
-      return imagealttext;
   }
 
   public String getLink() {

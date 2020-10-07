@@ -88,10 +88,6 @@ public class BannerleftModel extends AbstractComponent {
   @Default(values = "internalLink")
   private String imageLinkType;
 
-  @Inject
-  private String imagealttext;
-
-
 //GEN]
 
   //GEN[:GETTERS
@@ -128,10 +124,6 @@ public class BannerleftModel extends AbstractComponent {
   /* {"type":"string","x-source":"inject","x-default":"internalLink","x-form-visible":"false","x-form-type":"text"} */
   public String getImageLinkType() {
       return imageLinkType;
-  }
-
-  public String getImagealttext() {
-      return imagealttext;
   }
 
 }

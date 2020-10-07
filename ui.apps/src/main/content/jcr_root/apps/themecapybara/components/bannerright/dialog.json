@@ -8,18 +8,19 @@
       "model": "title"
     },
     {
+      "type": "material-textarea",
+      "rows": 10,
+      "max": 500,
+      "placeholder": "text",
+      "label": "Text",
+      "model": "text"
+    },
+    {
       "type": "pathbrowser",
       "browserRoot": "/content/themecapybara/assets",
       "placeholder": "Image",
       "label": "Image",
       "model": "image"
-    },
-    {
-      "type": "input",
-      "inputType": "text",
-      "placeholder": "Image Alternate Text",
-      "label": "Image Alt Text",
-      "model": "imagealttext"
     },
     {
       "type": "inputlink",
@@ -29,14 +30,6 @@
       "model": "link",
       "internalLinkPlaceholder": "Link",
       "urlPlaceholder": "URL"
-    },
-    {
-      "type": "material-textarea",
-      "rows": 10,
-      "max": 500,
-      "placeholder": "text",
-      "label": "Text",
-      "model": "text"
     },
     {
       "type": "input",
