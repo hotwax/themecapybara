@@ -66,13 +66,6 @@ public class NewsletterModel extends AbstractComponent {
   @Inject
   private String text;
 
-  @Inject
-  private String link;
-
-  @Inject
-  @Default(values = "internalLink")
-  private String linkType;
-
   /* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
   @Inject
   private String image;
@@ -111,14 +104,6 @@ public class NewsletterModel extends AbstractComponent {
 
   public String getImageLinkType() {
       return imageLinkType;
-  }
-
-  public String getLink() {
-    return link;
-  }
-
-  public String getLinkType() {
-    return linkType;
   }
 
 }

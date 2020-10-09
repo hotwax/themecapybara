@@ -113,9 +113,7 @@
             sling:resourceType="themecapybara/components/newsletter"
             buttontext="Subscribe"
             image="/content/themecapybara/assets/images/newsletter.jpg"
-            imagealttext=""
             imageLinkType="internalLink"
-            link=""
             text="Be aware of upcoming sales and events. Receive gifts and special offers!"
             title="Subscribe to Newsletters"/>
         <n87259fab-3b20-4298-b8a2-64c0ab848add
