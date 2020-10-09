@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="App Store" group="Banner">
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="App Store" group=".hidden">
   <jcr:content jcr:primaryType="nt:unstructured" imageLinkType="internalLink" title="Download our application to your mobile" playStoreImage="/content/themecapybara/assets/images/playstore.png" appleStoreImage="/content/themecapybara/assets/images/applestore.png" playstoreurl="https://play.google.com" applestoreurl="https://www.apple.com/ios/app-store/" image="/content/themecapybara/assets/images/mobile.png"/>
 </jcr:root>
