@@ -53,7 +53,7 @@
                     name="cards0"
                     path="/jcr:content/n7cf24e0c-bba2-4011-b45a-518f699baa5e/cards/cards0"
                     slot="banner-A"
-                    subtitle=""
+                    subtitle="DRESSES"
                     text="Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses from all your favorite brands."
                     title="COCKTAIL &amp; PARTY"/>
                 <cards1
@@ -69,7 +69,7 @@
                     name="cards1"
                     path="/jcr:content/n7cf24e0c-bba2-4011-b45a-518f699baa5e/cards/cards1"
                     slot="banner-B"
-                    subtitle=""
+                    subtitle="DRESSES"
                     text="Find stunning women's cocktail dresses and party dresses. Stand out in lace and metallic cocktail dresses from all your favorite brands."
                     title="LINEN DRESSES"/>
                 <cards2
@@ -85,7 +85,7 @@
                     name="cards2"
                     path="/jcr:content/n7cf24e0c-bba2-4011-b45a-518f699baa5e/cards/cards2"
                     slot="banner-C"
-                    subtitle=""
+                    subtitle="T-SHIRTS"
                     text=""
                     title="THE OFFICE LIFE"/>
                 <cards3
@@ -101,7 +101,7 @@
                     name="cards3"
                     path="/jcr:content/n7cf24e0c-bba2-4011-b45a-518f699baa5e/cards/cards3"
                     slot="banner-D"
-                    subtitle=""
+                    subtitle="SUMMER SHOES"
                     text=""
                     title="ECO SANDALS"/>
             </cards>
