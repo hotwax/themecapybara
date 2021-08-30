@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Nav">
+  <jcr:content jcr:primaryType="nt:unstructured" __variations="true">
+    <sample jcr:primaryType="nt:unstructured" title="Nav" group="Navigation">
+      <jcr:content jcr:primaryType="nt:unstructured" title="Nav Title">
+        <nav jcr:primaryType="nt:unstructured">
+          <nav0 jcr:primaryType="nt:unstructured" title=" Sub Nav Title 1" url="" linkType="internalLink" />
+          <nav1 jcr:primaryType="nt:unstructured" title=" Sub Nav Title 2" url="" linkType="internalLink" />
+        </nav>
+      </jcr:content>
+    </sample>
+  </jcr:content>
+</jcr:root>
