@@ -2,7 +2,7 @@
   <themecapybara-components-block v-bind:model="model">
     <div class="p-5" v-if="isEditAndEmpty">no content defined for component</div>
     <div v-else>
-      <b>{{model.title}}</b>
+      <h2>{{model.title}}</h2>
       <div style="margin-left: 20px;" v-for="(item,i) in model.influencer" :key="i">
         <a><p>{{item.title}}</p></a>
       </div>
