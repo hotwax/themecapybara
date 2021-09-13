@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="per:Component" jcr:title="Shop By Influencer">
+  <jcr:content jcr:primaryType="nt:unstructured" __variations="true">
+    <sample jcr:primaryType="nt:unstructured" title="Shop By Influencer" group="Navigation">
+      <jcr:content jcr:primaryType="nt:unstructured" title="Shop By Influencer">
+        <influencer jcr:primaryType="nt:unstructured">
+          <influencer0 jcr:primaryType="nt:unstructured" title="Influencer Name" link="" linkType="internalLink" image="" imageLinkType="internalLink"/>
+        </influencer>
+      </jcr:content>
+    </sample>
+  </jcr:content>
+</jcr:root>
