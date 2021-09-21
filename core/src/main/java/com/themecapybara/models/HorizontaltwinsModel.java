@@ -29,9 +29,6 @@ public class HorizontaltwinsModel extends AbstractComponent {
     public HorizontaltwinsModel(Resource r) { super(r); }
 
 	@Inject
-	private String showbutton;
-
-	@Inject
 	private List<IComponent> cards;
 
 	public String getShowbutton() {
