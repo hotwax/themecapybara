@@ -31,10 +31,6 @@ public class HorizontaltwinsModel extends AbstractComponent {
 	@Inject
 	private List<IComponent> cards;
 
-	public String getShowbutton() {
-		return showbutton;
-	}
-
 	public List<IComponent> getCards() {
 		return cards;
 	}
