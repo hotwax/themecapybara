@@ -20,7 +20,7 @@
           "inputType": "text",
           "placeholder": "Text Color",
           "label": "Text Color",
-          "model": "text_color"
+          "model": "textColor"
         },
         {
           "type": "pathbrowser",

@@ -4,8 +4,8 @@
     <sample jcr:primaryType="nt:unstructured" title="Carousel" group="Banner">
       <jcr:content jcr:primaryType="nt:unstructured">
         <slides jcr:primaryType="nt:unstructured">
-          <slides0 jcr:primaryType="nt:unstructured" aligntext="left" imageLinkType="internalLink" image="/content/themecapybara/assets/images/Carousel1.png" title="Colorful summer dresses are already in store" subtitle="SUMMER COLLECTION 2020"/>
-          <slides1 jcr:primaryType="nt:unstructured" aligntext="right" imageLinkType="internalLink" image="/content/themecapybara/assets/images/Carousel2.png" title="Find clothing that expresses your individuality" subtitle="SUMMER COLLECTION 2020"/>
+          <slides0 jcr:primaryType="nt:unstructured" aligntext="left" imageLinkType="internalLink" image="/content/themecapybara/assets/images/Carousel1.png" title="Colorful summer dresses are already in store" subtitle="SUMMER COLLECTION 2020" textColor=""/>
+          <slides1 jcr:primaryType="nt:unstructured" aligntext="right" imageLinkType="internalLink" image="/content/themecapybara/assets/images/Carousel2.png" title="Find clothing that expresses your individuality" subtitle="SUMMER COLLECTION 2020" textColor=""/>
         </slides>
       </jcr:content>
     </sample>

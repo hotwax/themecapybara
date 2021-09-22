@@ -15,6 +15,13 @@
       "model": "subtitle"
     },
     {
+      "type": "input",
+      "inputType": "text",
+      "placeholder": "Text Color",
+      "label": "Text Color",
+      "model": "textColor"
+    },
+    {
       "type": "collection",
       "multifield": true,
       "fieldLabel": [
