@@ -2,11 +2,13 @@
   <div style="width: 1240px; height: 472px; margin: 0 auto;" v-bind:data-per-path="model.path">
     <div class="horizontaltwins-left-banner" v-bind:style="{ 'background-image': 'url(' + model.cards[0].image + ')' }">
       <h4 class="horizontaltwins-banner-heading" v-html=" model.cards[0].title" v-bind:style="{ 'color': model.cards[0].textColor}"></h4>
+      <p class="horizontaltwins-banner-text" v-html=" model.cards[0].text" v-bind:style="{ 'color': model.cards[0].textColor}"></p>
       <br>
       <a href="#" class="horizontaltwins-banner-button" v-if="model.cards[0].buttontext != '' " v-html="model.cards[0].buttontext"></a>
     </div>
     <div class="horizontaltwins-right-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[1].image+ ')' }">
       <h4 class="horizontaltwins-banner-heading" v-html=" model.cards[1].title" v-bind:style="{ 'color': model.cards[1].textColor}"></h4>
+      <p class="horizontaltwins-banner-text" v-html=" model.cards[1].text" v-bind:style="{ 'color': model.cards[1].textColor}"></p>
       <br>
       <a href="#" class="horizontaltwins-banner-button" v-if="model.cards[1].buttontext != ''" v-html="model.cards[1].buttontext"></a>
     </div>
@@ -68,6 +70,13 @@
     margin: 4px 2px;
     margin-left: 90px;
     font-weight: bold;
+  }
+  .horizontaltwins-banner-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    margin-left: 90px;
   }
 
 </style>
