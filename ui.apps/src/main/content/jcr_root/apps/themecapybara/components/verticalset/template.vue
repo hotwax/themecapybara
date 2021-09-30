@@ -1,31 +1,31 @@
 <template>
   <div style="width: 1240px; height: 995px; margin: 0 auto; font-family: var(--font-sans);" v-bind:data-per-path="model.path">
     <div class="verticalset-left-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[0].image+ ')' }">
-        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[0].subtitle"></b>
-        <h3 class="verticalset-banner-heading" v-html=" model.cards[0].title"></h3>
-        <p class="verticalset-banner-text" v-html=" model.cards[0].text"></p>
+        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[0].subtitle" v-bind:style="{ 'color': model.cards[0].textColor}"></b>
+        <h3 class="verticalset-banner-heading" v-html=" model.cards[0].title" v-bind:style="{ 'color': model.cards[0].textColor}"></h3>
+        <p class="verticalset-banner-text" v-html=" model.cards[0].text" v-bind:style="{ 'color': model.cards[0].textColor}"></p>
         <br>
         <a href="#" class="verticalset-banner-button" v-if="model.cards[0].buttontext" v-html="model.cards[0].buttontext"></a>
     </div>
     <div style="float: right; width: 770px; height: 1000px;">
       <div class="verticalset-right-top-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[1].image+ ')' }">
-        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[1].subtitle"></b>
-        <h3 class="verticalset-banner-heading" v-html=" model.cards[1].title"></h3>
-        <p class="verticalset-banner-text" v-html=" model.cards[1].text"></p>
+        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[1].subtitle" v-bind:style="{ 'color': model.cards[1].textColor}"></b>
+        <h3 class="verticalset-banner-heading" v-html=" model.cards[1].title" v-bind:style="{ 'color': model.cards[1].textColor}"></h3>
+        <p class="verticalset-banner-text" v-html=" model.cards[1].text" v-bind:style="{ 'color': model.cards[1].textColor}"></p>
         <br>
         <a href="#" class="verticalset-banner-button" v-if="model.cards[1].buttontext" v-html="model.cards[1].buttontext"></a>
       </div>
       <div class="verticalset-right-top-banner" style="margin-left:14px;" v-bind:style="{ 'background-image': 'url(' +model.cards[2].image+ ')' }">
-        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[2].subtitle"></b>
-        <h3 class="verticalset-banner-heading" v-html=" model.cards[2].title"></h3>
-        <p class="verticalset-banner-text" v-html=" model.cards[2].text"></p>
+        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[2].subtitle" v-bind:style="{ 'color': model.cards[2].textColor}"></b>
+        <h3 class="verticalset-banner-heading" v-html=" model.cards[2].title" v-bind:style="{ 'color': model.cards[2].textColor}"></h3>
+        <p class="verticalset-banner-text" v-html=" model.cards[2].text" v-bind:style="{ 'color': model.cards[2].textColor}"></p>
         <br>
         <a href="#" class="verticalset-banner-button" v-if="model.cards[2].buttontext" v-html="model.cards[2].buttontext"></a>
       </div>
       <div class="verticalset-right-bottom-banner" v-bind:style="{ 'background-image': 'url(' +model.cards[3].image+ ')' }">
-        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[3].subtitle"></b>
-        <h3 class="verticalset-banner-heading" v-html=" model.cards[3].title"></h3>
-        <p class="verticalset-banner-text" v-html=" model.cards[3].text"></p>
+        <b class="verticalset-banner-text" style="margin-top: 10px;" v-html=" model.cards[3].subtitle" v-bind:style="{ 'color': model.cards[3].textColor}"></b>
+        <h3 class="verticalset-banner-heading" v-html=" model.cards[3].title" v-bind:style="{ 'color': model.cards[3].textColor}"></h3>
+        <p class="verticalset-banner-text" v-html=" model.cards[3].text" v-bind:style="{ 'color': model.cards[3].textColor}"></p>
         <a href="#" class="verticalset-banner-button" v-if="model.cards[3].buttontext" v-html="model.cards[3].buttontext"></a>
       </div>
     </div>

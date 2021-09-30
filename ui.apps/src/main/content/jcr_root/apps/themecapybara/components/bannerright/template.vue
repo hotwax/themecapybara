@@ -2,8 +2,8 @@
   <div style="width: 100%; margin: 0 auto; font-family: var(--font-sans);" v-bind:data-per-path="model.path">
     <div style="  height: 600px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;" v-bind:style="{ 'background-image': 'url(' + model.image + ')' }">
       <div style="text-align: left; position: absolute; top: 20%; left: 50%; right:10%;  color: black;">
-        <h2 class="bannerright-heading" v-html="model.title"></h2>
-        <p class="bannerright-text" v-html="model.text"></p>
+        <h2 class="bannerright-heading" v-html="model.title" v-bind:style="{ 'color': model.textColor}"></h2>
+        <p class="bannerright-text" v-html="model.text"v-bind:style="{ 'color': model.textColor}"></p>
         <a href="#" class="bannerright-button" v-if="model.buttontext" v-html="model.buttontext"></a>
       </div>
     </div>
