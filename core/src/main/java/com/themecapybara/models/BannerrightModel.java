@@ -74,6 +74,9 @@ public class BannerrightModel extends AbstractComponent {
   @Inject
   private String text;
 
+  @Inject
+  private String textColor;
+
   /* {"type":"string","x-source":"inject","x-form-label":"Button Text","x-form-visible":"model.showbutton == 'true'","x-form-type":"text"} */
   @Inject
   private String buttontext;
@@ -111,6 +114,8 @@ public class BannerrightModel extends AbstractComponent {
   public String getText() {
       return text;
   }
+
+  public String getTextColor() { return textColor; }
 
   /* {"type":"string","x-source":"inject","x-form-label":"Button Text","x-form-visible":"model.showbutton == 'true'","x-form-type":"text"} */
   public String getButtontext() {

@@ -16,14 +16,14 @@
             'text-right': item.aligntext === 'right',
             'self-start': item.aligntext === 'left',
             'self-end': item.aligntext === 'right'
-        }"></h2>
+        }" v-bind:style="{ 'color': item.textColor}"></h2>
           <figcaption class="absolute bottom-0 p-4 text-black text-xl w-full"
           v-if="item.subtitle" v-html="item.subtitle" v-bind:class="{
             'text-left': item.aligntext === 'left',
             'text-right': item.aligntext === 'right',
             'self-start': item.aligntext === 'left',
             'self-end': item.aligntext === 'right'
-        }"></figcaption>
+        }" v-bind:style="{ 'color': item.textColor}"></figcaption>
         </div>
       </slide>
     </carousel>

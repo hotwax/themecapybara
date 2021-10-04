@@ -66,6 +66,9 @@ public class NewsletterModel extends AbstractComponent {
   @Inject
   private String text;
 
+  @Inject
+  private String textColor;
+
   /* {"type":"string","x-source":"inject","x-form-label":"Image","x-form-type":"pathbrowser","x-form-browserRoot":"/content/assets"} */
   @Inject
   private String image;
@@ -96,6 +99,8 @@ public class NewsletterModel extends AbstractComponent {
   public String getImage() {
       return image;
   }
+
+  public String getTextColor() { return textColor; }
 
   /* {"type":"string","x-source":"inject","x-form-label":"Button text","x-form-type":"text"} */
   public String getButtontext() {

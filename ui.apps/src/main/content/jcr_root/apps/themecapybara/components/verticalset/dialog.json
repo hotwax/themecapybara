@@ -31,6 +31,13 @@
             "model": "text"
           },
           {
+            "type": "input",
+            "inputType": "text",
+            "placeholder": "Text Color",
+            "label": "Text Color",
+            "model": "textColor"
+          },
+          {
             "type": "pathbrowser",
             "browserRoot": "/content/themecapybara/assets",
             "placeholder": "Image",

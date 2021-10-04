@@ -2,8 +2,8 @@
     <div style=" width: 100%; height:250px; margin: 0 auto; font-family: var(--font-sans);" v-bind:data-per-path="model.path">
       <div style="width: 100%; height: 250px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;" v-bind:style="{ 'background-image': 'url(' + model.image + ')' }">
         <div style=" margin-top: 80px; text-align: left; position: absolute; left: 5%; right: 50%; font-style: normal; font-weight: normal; color: black;">
-          <h2 style=" font-size: 36px; line-height: 48px; " v-html="model.title"></h2>
-          <p style=" font-size: 18px; line-height: 29px;" v-html="model.text"></p>
+          <h2 style=" font-size: 36px; line-height: 48px; " v-html="model.title" v-bind:style="{ 'color': model.textColor}"></h2>
+          <p style=" font-size: 18px; line-height: 29px;" v-html="model.text" v-bind:style="{ 'color': model.textColor}"></p>
         </div>
         <div>
           <div style="margin-top: 90px; float: right; display: inline-block;">
